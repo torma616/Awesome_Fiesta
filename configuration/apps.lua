@@ -21,7 +21,7 @@ return {
     'mpd', -- Music Server
     'pulseeffects --gapplication-service', -- Equalizer
     'redshift-gtk -l 14.45:121.05', -- Redshift
-    'xautolock -time 5 -locker "i3lock-fancy-rapid 30 0" -detectsleep' -- Auto lock
+    'xidlehook --not-when-audio --not-when-fullscreen --timer 1200 "i3lock-fancy-rapid 30 0" "" ' -- Auto lock
   },
 
   -- List of binaries and functions to execute a certain task

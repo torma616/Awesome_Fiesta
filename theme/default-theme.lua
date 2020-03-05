@@ -8,7 +8,7 @@ local dpi = require('beautiful').xresources.apply_dpi
 
 local theme = {}
 theme.icons = theme_dir .. '/icons/'
-theme.font = 'SF Pro Display Regular 10'
+theme.font = 'SF Pro Display 10'
 
 -- Colors Pallets
 
@@ -33,7 +33,7 @@ local awesome_overrides =
   -- Default Wallpaper if Dynamic wallpaper module is not loaded
   theme.wallpaper = theme.dir .. '/wallpapers/day-wallpaper.jpg'
 
-  theme.font = 'SF Pro Display Regular 10'
+  theme.font = 'SF Pro Display 10'
   theme.title_font = 'SF Pro Display Bold 14'
 
   theme.fg_normal = '#ffffff'

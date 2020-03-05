@@ -10,7 +10,7 @@ local dpi = require('beautiful').xresources.apply_dpi
 local datetime_widget = wibox.widget {
   {
     format = '%a %b %d, %Y    %H:%M:',
-    font = 'SF Display Bold 10',
+    font = 'SF Pro Display Bold 10',
     refresh = 1,
     widget = wibox.widget.textclock
   },
